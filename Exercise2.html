@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>COMMSCHOOL_HOMEWORK2.Exercise2</title>
+    </head>
+
+    <style>
+        table, th, td {
+          border:1px solid black;
+          border-collapse: collapse;
+          margin-bottom: 30px;
+          padding: 10px;
+        }
+        </style>
+
+    <body>
+        <table>
+            <form>
+                <tr>
+                    <th>Control Type</th>
+                    <th>Data</th>
+                    <th>Control</th>
+                  </tr>
+                  <tr>
+                    <td>Text box</td>
+                    <td>Name:</td>
+                    <td>
+                        <input type="text" name="Enter name" value="Enter name"/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Password</td>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" name="password"/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Text area</td>
+                    <td>Address:</td>
+                    <td>
+                        <textarea rows="5" cols="20">Enter address</textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Drop down list</td>
+                    <td>Area:</td>
+                    <td>
+                        <select name="Choose an Area"> 
+                            <option value="Center">Center</option>
+                            <option value="the beach">the beach</option>
+                            <option value="Suburb">Suburb</option>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Check box</td>
+                    <td>Hobbies: </td>
+                    <td>
+                        <input type="checkbox" name="hobbies1" value="Sport">
+                        <label for="hobbies1">Sport</label><br>
+
+                        <input type="checkbox" name="hobbies2" value="Reading">
+                        <label for="hobbies2">Reading</label><br>
+
+                        <input type="checkbox" name="hobbies3" value="T.V.">
+                        <label for="hobbies3">T.V.</label><br>
+
+                        <input type="checkbox" name="hobbies4" value="Internet">
+                        <label for="hobbies4">Internet</label><br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Radio Buttons</td>
+                    <td>Gender:</td>
+                    <td>
+                        <fieldset>
+                            <legend>Gender Selection</legend>
+                            <input type="radio" name="gender" value="Male"/>Male
+                            <br/>
+                            <input type="radio" name="gender" value="Female"/>Female
+                        </fieldset>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>File upload</td>
+                    <td>Your image:</td>
+                    <td>
+                        <input type="file" name="myfile">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Buttons</td>
+                    <td>Actions:</td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="Reset" value="Reset">
+                        <input type="Button" value="Button">
+                    </td>
+                  </tr>
+                </table>
+
+            </form>
+        </table>
+
+    </body>
+
+</html>
